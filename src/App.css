@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.mdlLoad {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 100px;
+   height: 100px;
+   margin-top: -50px;
+   margin-left: -50px;
+}
+
 .App-title {
   position: relative;
   font-size: 3em;
@@ -14,14 +24,16 @@
   font-size: 1.5em;
   color: #004d99;
   margin: 0;
-  top: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  top: 1em;
 }
 
 .file-input {
   display: none;
 }
 
-.upload-button {
+.load-button {
   position: relative;
   background-color: transparent;
   border-color: #FF851B;
@@ -35,13 +47,28 @@
   padding: .15em;
 }
 
-.upload-button:hover {
+.load-button:hover {
   background-color: #FF851B;
   color: white;
 }
 
-.upload-button:active {
+.load-button:active {
   background-color: #e66b00;
   border-color: #e66b00;
 }
 
+.download {
+  left: .2em;
+}
+
+.stkLoading {
+  position: relative;
+  top: .5em;
+  font-size: 1.5em;
+  color: #FF851B;
+}
+
+.stk {
+ position: relative;
+ height: 300px;
+}
