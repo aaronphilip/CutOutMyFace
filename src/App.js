@@ -17,7 +17,6 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    tf.setBackend('cpu')
     var mdl = await tf.loadModel('https://www.cutoutmyface.com/model/model.json')
     this.setState({model: mdl,
                    mdlLoaded: true})
